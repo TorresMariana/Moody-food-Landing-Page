@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moddy Food Restaurant</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a id="inicio"></a>
+    <header class="container">
+        <div class="container__logo">
+            <img src="img/logo.png" alt="logo" class="logo">
+        </div>
+
+        <!--Menu hamburguesa-->
+        <input class="menu__hamburguesa" type="checkbox" id="menu-hamburguesa">
+        <button class="menu__hamburguesa__boton" aria-label="Menu de navegación" onclick="menuHamburguesa();">
+            <div class="menu__boton__hamburguesa__contenido"></div>
+            <div class="menu__boton__hamburguesa__contenido"></div>
+            <div class="menu__boton__hamburguesa__contenido"></div>
+        </button>
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html" onclick="cerrarmenuHamburguesa();">Home</a>
+            <a class="header__menu__link" href="#about" onclick="cerrarmenuHamburguesa();">About</a>
+            <a class="header__menu__link" href="#menu" onclick="cerrarmenuHamburguesa();">Menu</a>
+            <a class="header__menu__link" href="#footer" onclick="cerrarmenuHamburguesa();">Contact</a>
+        </nav>
+    </header>
+
+    <a id="hero"></a>
+    <section class="container hero">
+        <div class="hero__contenido">
+            <h2 class="container__contenido__subtitulo">AUTHOR'S</h2>
+            <h1 class="container__contenido__titulo">KITCHEN</h1>
+            <p class="container__contenido__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas ipsa accusamus consectetur, nobis eum placeat eius libero possimus id sint voluptates, quasi sit soluta.</p>
+        </div>
+        <img src="img/hero-imagen.jpg" alt="imagen de verduras" class="hero__contenido__imagen">
+    </section>
+
+    <a id="about"></a>
+    <section class="container about">
+        <div class="about__contenedor">
+            <h2 class="container__contenido__titulo">ABOUT</h2>
+            <h2 class="container__contenido__titulo">US</h2>
+            <p class="container__contenido__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem nulla iure dolore a, pariatur id rem, ullam, blanditiis nam quisquam maxime quas distinctio. Est soluta laudantium vero dignissimos natus.</p>
+        </div>
+
+        <section class="about__tarjetas__chefs">
+            <div class="tarjeta__chef">
+                <div class="tarjeta__chef__imagen__contenedor">
+                   <img src="img/cocinero-1.jpg" alt="imagen cocinera" class="tarjeta__chef__imagen">
+                   <h3 class="tarjeta__chef__titulo">Chef Caeli</h3>
+                </div>
+                
+                <p class="tarjeta__chef__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa assumenda, explicabo illo quae ad eius minima dolor architecto quidem fugit odit saepe. Minima, maxime.</p>
+            </div>
+            <div class="tarjeta__chef">
+                <div class="tarjeta__chef__imagen__contenedor">
+                   <img src="img/cocinero-2.jpg" alt="imagen cocinero" class="tarjeta__chef__imagen">
+                   <h3 class="tarjeta__chef__titulo">Chef Ricardo</h3>
+                </div>
+                <p class="tarjeta__chef__descripcion">Voluptate alias facilis id blanditiis dicta quia necessitatibus corporis repellendus exercitationem nostrum nobis hic eveniet harum natus consequuntur doloribus modi cumque, reiciendis perspiciatis odio inventore.</p>
+            </div>
+            <div class="tarjeta__chef">
+                <div class="tarjeta__chef__imagen__contenedor">
+                   <img src="img/cocinero-3.jpg" alt="imagen cocinera" class="tarjeta__chef__imagen">
+                    <h3 class="tarjeta__chef__titulo">Chef Haruka</h3> 
+                </div>
+                <p class="tarjeta__chef__descripcion">Eligendi quasi alias, nostrum ipsum omnis illum nisi expedita, itaque dolores error beatae nulla libero! Itaque enim recusandae pariatur voluptatibus. Inventore excepturi ipsum hic quae.</p>
+            </div>
+        </section>
+    </section>
+    <!--botón-->
+    <a href="#inicio" class="boton__subir" id="boton-subir" onclick="subirAInicio">⇧</a>
+    
+    <a id="menu"></a>
+    <main class="container main">
+        <div class="main__contenedor">
+            <div class="main__contenido">
+            <h2 class="container__contenido__titulo">MENU</h2>
+            </div>
+            <img src="img/menu-imagen-1.jpg" alt="imagen postre de chocolate" class="container__contenido__imagen">
+        </div>
+        
+        <section class="container__menu">
+            <img src="img/menu-imagen-2.jpg" alt="imagen sushi" class="container__menu__imagen">
+            <div class="menu__encabezado">
+                <h2 class="container__contenido__subtitulo">INTERNATIONAL</h2>
+                <h2 class="container__contenido__titulo">BUFFET</h2>
+                <h3 class="menu__contenido__precio">$35</h3>
+            </div>
+        </section>
+        <section class="menu__items">
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Italian food</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Mexican food</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Asian food</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+        </section>
+
+        <section class="container__menu">
+            <img src="img/menu-imagen-3.jpg" alt="imagen taza" class="container__menu__imagen">
+            <div class="menu__encabezado">
+                <h2 class="container__contenido__subtitulo"></h2>
+                <h2 class="container__contenido__titulo">DRINKS</h2>
+                <h3 class="menu__contenido__precio">$15</h3>
+            </div>
+        </section>
+        <section class="menu__items">
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Limonade</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Soda</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Mineral water</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+        </section>
+
+        <section class="container__menu">
+            <img src="img/menu-imagen-4.jpg" alt="imagen copa de vino" class="container__menu__imagen">
+            <div class="menu__encabezado">
+                <h2 class="container__contenido__subtitulo">WINE</h2>
+                <h2 class="container__contenido__titulo">LIST</h2>
+                <h3 class="menu__contenido__precio">$39 & $59</h3>
+            </div>
+        </section>
+        <section class="menu__items">
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Red wine</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+            <div class="menu__item__contenido">
+                <h3 class="menu__item__contenido__titulo">Artesanal wine</h3>
+                <p class="menu__item__descripcion">Sit officia temporibus repudiandae, at dicta nesciunt, id inventore recusandae saepe blanditiis cum. Nisi repudiandae adipisci deserunt quae odit praesentium ipsa voluptate voluptates illum dignissimos.</p>
+            </div>
+        </section>
+    </main>
+
+    <a id="footer"></a>
+    <footer class="container footer">
+        <div class="footer__contenido">
+            <h2 class="container__contenido__subtitulo">CONTACT</h2>
+            <h2 class="container__contenido__titulo">US</h2>
+        </div>
+        <ul class="footer__redes__sociales">
+            <li>
+                <a href="https://ar.pinterest.com/" class="footer__redes__sociales__link">
+                    <img src="img/pinterest.svg" alt="icono pinterest" class="footer__redes__sociales__imagen">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" class="footer__redes__sociales__link">
+                    <img src="img/instagram.svg" alt="icono instagram" class="footer__redes__sociales__imagen">
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/" class="footer__redes__sociales__link">
+                    <img src="img/twitter.svg" alt="icono x" class="footer__redes__sociales__imagen">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" class="footer__redes__sociales__link">
+                    <img src="img/facebook.svg" alt="icono facebook" class="footer__redes__sociales__imagen">
+                </a>
+            </li>
+        </ul>
+
+        <p class="footer__telefono">555-5555-555</p>
+    </footer>
+    
+    <script src="js/boton-subir.js"></script>
+    <script src="js/menu-hamburguesa.js"></script>
+</body>
+</html>
