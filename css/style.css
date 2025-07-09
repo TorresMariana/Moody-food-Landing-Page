@@ -370,7 +370,7 @@ img{
     }
 
     @media (max-width: 850px){
-        /*HeADER*/
+        /*HEADER*/
         .container__logo{
             text-align: start;
         }
@@ -422,9 +422,11 @@ img{
             top: 5%;
             right: 5%;
             background-color: var(--color-principal);
-            width: 5rem;
+            /* width: 5rem;
             height: 6rem;
-            padding: 1rem;
+            padding: 1rem; */
+            width: 5rem;
+            padding: 0 1rem;
             top: 0;
         }
         .menu__boton__hamburguesa__contenido{
@@ -441,13 +443,13 @@ img{
             visibility: visible;
         }
         #menu-hamburguesa:checked + .menu__hamburguesa__boton .menu__boton__hamburguesa__contenido:first-child{
-            transform: rotate(45deg) translateY(-.10rem);
+            transform: rotate(45deg) translateY(-.2rem);
         }
         #menu-hamburguesa:checked + .menu__hamburguesa__boton .menu__boton__hamburguesa__contenido:nth-child(2){
             opacity: 0;
         }
         #menu-hamburguesa:checked + .menu__hamburguesa__boton .menu__boton__hamburguesa__contenido:last-child{
-            transform: rotate(-45deg) translateY(.10rem);
+            transform: rotate(-45deg) translateY(.2rem);
         }
         #menu-hamburguesa:checked + .menu__hamburguesa__boton .menu__boton__hamburguesa__contenido{
             background-color: var(--color-principal);
