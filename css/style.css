@@ -428,9 +428,12 @@ img{
             width: 5rem;
             padding: 0 1rem;
             top: 0;
+
+            height: 5%;
+            top: 1%;
         }
         .menu__boton__hamburguesa__contenido{
-            background-color: red;
+            background-color: var(--color-secundario);
             height: 10%;
             width: auto;
             border-radius: 5px;
