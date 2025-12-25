@@ -1,6 +1,5 @@
 # Moody-food-Landing-Page
 
-# Cafe concept - Landing page
 
 ## Plantilla
 ![plantilla](/img/3412207.jpg)
